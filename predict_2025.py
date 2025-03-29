@@ -101,30 +101,30 @@ def load_and_prepare_stats():
 def create_2025_calendar():
     """Create the 2025 F1 calendar"""
     return [
-        "Bahrain Grand Prix",
-        "Saudi Arabian Grand Prix",
-        "Australian Grand Prix",
-        "Japanese Grand Prix",
-        "Chinese Grand Prix",
-        "Miami Grand Prix",
-        "Emilia Romagna Grand Prix",
-        "Monaco Grand Prix",
-        "Canadian Grand Prix",
-        "Spanish Grand Prix",
-        "Austrian Grand Prix",
-        "British Grand Prix",
-        "Hungarian Grand Prix",
-        "Belgian Grand Prix",
-        "Dutch Grand Prix",
-        "Italian Grand Prix",
-        "Azerbaijan Grand Prix",
-        "Singapore Grand Prix",
-        "United States Grand Prix",
-        "Mexico City Grand Prix",
-        "São Paulo Grand Prix",
-        "Las Vegas Grand Prix",
-        "Qatar Grand Prix",
-        "Abu Dhabi Grand Prix"
+        "Australian Grand Prix",      # March 16
+        "Chinese Grand Prix",         # March 23
+        "Japanese Grand Prix",        # April 7
+        "Bahrain Grand Prix",         # April 21
+        "Saudi Arabian Grand Prix",   # April 28
+        "Miami Grand Prix",           # May 4
+        "Emilia Romagna Grand Prix",  # May 18
+        "Monaco Grand Prix",          # May 25
+        "Spanish Grand Prix",         # June 8
+        "Canadian Grand Prix",        # June 22
+        "Austrian Grand Prix",        # June 29
+        "British Grand Prix",         # July 6
+        "Belgian Grand Prix",         # July 27
+        "Hungarian Grand Prix",       # August 3
+        "Dutch Grand Prix",           # August 31
+        "Italian Grand Prix",         # September 7
+        "Azerbaijan Grand Prix",      # September 21
+        "Singapore Grand Prix",       # October 5
+        "United States Grand Prix",   # October 19
+        "Mexico City Grand Prix",     # October 26
+        "São Paulo Grand Prix",       # November 9
+        "Las Vegas Grand Prix",       # November 23
+        "Qatar Grand Prix",           # November 30
+        "Abu Dhabi Grand Prix"        # December 7
     ]
 
 def prepare_prediction_data(driver_stats, constructor_stats, track_stats, latest_positions, feature_names):
